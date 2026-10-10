@@ -1,0 +1,94 @@
+1.what is a keyword?
+    Keyword is a reserved word in particular programming language.
+
+    Examples of keywords:
+    let, const, var, if, else, for, while, function, 
+    return, class, new, try, catch, this, async, await
+    let x = 10;
+
+    let -> Keyword
+    x -> Identifier / Variable Name
+    = -> Operator
+    10 -> Literal / Variable Value
+    ; -> end of the statement
+    const- declares a variable that cannot be reassigned
+
+2. Common JavaScript keywords with examples
+    let	Declares a variable that can be reassigned	let age = 25;
+    const	Declares a variable that cannot be reassigned	const pi = 3.14;
+    var	Older way to declare a variable	var name = "Ravi";
+
+
+3. What is an identifier?
+    An identifier is a name we give to a variable, function, class, or parameter.
+
+    let studentName = "Ravi";
+    let studentAge = 25;
+    studentName — identifier
+    studentAge — identifier
+
+4. Rules for identifiers in JavaScript
+    Rule 1: An identifier can start with a letter
+    Rule 2: An identifier can start with an underscore _
+    Rule 3: An identifier can start with a dollar sign $
+    Rule 4: An identifier cannot start with a number
+    Rule 5: Spaces are not allowed
+    Rule 6: Hyphens are not allowed in ordinary identifiers becz it treats as a minus operator
+    Rule 7: Keywords cannot be used as variable names
+    EX- let if = 10;
+        let for = 20;
+        let class = "Student";
+    Rule 8: JavaScript is case-sensitive
+    EX- let name = "Ravi";
+        let Name = "John";
+        console.log(name); // Ravi
+        console.log(Name); // John
+        name and Name are two different identifiers.
+
+
+5.Naming conventions are common ways of writing identifiers to make code easy to read.
+
+    A. camelCase(Commonly used for variables and functions)
+    The first word starts with a lowercase letter. Each following word starts with a capital letter.
+    let studentName = "Ravi";
+    let employeeId = 101;
+
+    B. PascalCase(Commonly used for classes)
+    Each word starts with a capital letter.
+    class StudentDetails {
+    }
+
+    class LoginPage {
+    }
+
+    C.UPPER_SNAKE_CASE
+    All letters are uppercase, with underscores between words.
+    const MAX_COUNT = 100;
+    const BASE_URL = "https://example.com";
+    Often used for constants whose values are intended to remain fixed by convention.
+
+6. DIfference between Keywords and identifiers
+
+Keyword	                                    Identifier
+Has a predefined meaning in JavaScript.	    A name chosen by the programmer.
+Used for language syntax.	                Used to name variables, functions, classes, etc.
+Usually cannot be used as an ordinary       Must follow identifier naming rules.
+    variable name.	                   
+Examples: let, if, for	                    Examples: age, userName, getData
+
+
+Quick revision
+- Keyword: A special JavaScript word, such as let or if.
+- Identifier: A name chosen by the programmer, such as studentName.
+- Identifiers can start with a letter, _, or $.
+- Identifiers cannot start with a number.
+- Spaces and hyphens are not allowed in ordinary identifiers.
+- Keywords cannot be used as ordinary variable names.
+- JavaScript is case-sensitive.
+
+
+let studentName = "Ravi";
+console.log(studentName);
+let = keyword.
+studentName = identifier.
+"Ravi" = value.
